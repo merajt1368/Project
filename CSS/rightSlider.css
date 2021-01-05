@@ -1,0 +1,65 @@
+
+.main_box_slider2 {
+    background-color: #F5F4F4;
+}
+
+.maindiv2 {
+    width: 30%;
+    height: 400px;
+    position: relative;
+    left: 23%;
+    right: 50%;
+    transform: translate(-50% , 0%);
+    background-image: url(https://uupload.ir/files/b2sc_img5.jpg);
+    background-size: 100% 100%;
+    margin-top: 50px;
+    animation: slider 10s infinite;
+    margin-bottom: 60px;
+}
+
+@keyframes slider {
+    0%{background-image: url('https://uupload.ir/files/b2sc_img5.jpg');}
+    40%{background-image: url('https://uupload.ir/files/dh9_img6.jpg');}
+    80%{background-image: url('https://uupload.ir/files/f09_img7.jpg');}
+}
+
+.boxTextSlider2 {
+    color: #212529;
+    display: flex;
+}
+
+.textleft {
+    width: 750px;
+    text-align: justify;
+    direction: rtl;
+    padding: 76px 0px 40px 147px;
+}
+
+
+
+.mySlides {
+    height: 370px;
+    padding: 87px 120px 0px 50px;
+    width: 600px !important;
+}
+.w3-left {
+    position: relative;
+    bottom: 149px;
+    margin-left: 66px;
+    cursor:pointer;
+}
+.w3-right {
+    position: relative;
+    cursor: pointer;
+    margin-left: 458px;
+    bottom: 172px;
+}
+.w3-badge {
+    cursor:pointer;
+    height:13px;
+    width:13px;
+    padding:0;
+}
+
+
+

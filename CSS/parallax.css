@@ -1,0 +1,44 @@
+.parallax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://uupload.ir/files/h09_img1.jpg");
+    min-height: 250px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    direction: rtl;
+  }
+  .txtParallax {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: right;
+    position: relative;
+    left: 408px;
+    top: -43px;
+  }
+  .mintxtParallax {
+    font-size: 1.3rem;
+    color: #ffffff;
+    text-align: right;
+    position: absolute;
+    right: 119px;
+    margin-top: 56px;
+  }
+  .btnParallax {
+    background-color: #00a300;
+    padding: 15px 60px;
+    border-radius: 10px;
+    position: absolute;
+    left: 235px;
+    margin-top: 21px;
+    width: 186px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  .btnParallax:hover {
+    background-color: #00c200;
+    color: #ffffff;
+  }

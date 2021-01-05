@@ -1,0 +1,36 @@
+.main_box_slider {
+    background-color: #5C626C;
+    color: white;
+}
+
+.maindiv {
+    width: 30%;
+    height: 400px;
+    position: relative;
+    left: 25%;
+    right: 50%;
+    transform: translate(-50% , 0%);
+    background-image: url('https://uupload.ir/files/b2sc_img5.jpg');
+    background-size: 100% 100%;
+    margin-top: 50px;
+    animation:slider 10s infinite;
+}
+
+@keyframes slider {
+    0%{background-image: url('https://uupload.ir/files/b2sc_img5.jpg');}
+    40%{background-image: url('https://uupload.ir/files/dh9_img6.jpg');}
+    80%{background-image: url('https://uupload.ir/files/f09_img7.jpg');}
+}
+
+.boxTextSlider {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textRight {
+    width: 750px;
+    text-align: justify;
+    direction: rtl;
+    padding: 76px 120px 0px 22px;
+}

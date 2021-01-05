@@ -1,0 +1,89 @@
+.box_container {
+    background-color: #F5F4F4;
+    padding-top: 1px;
+}
+
+.box_container img {
+    width: 257px;
+}
+
+.four_box_container {
+    display: flex;
+    justify-content: center;
+}
+
+.title_line p {
+    padding-top: 50px;
+    text-align: center !important;
+    font-size: 22px;
+}
+
+.main_box {
+    background: #F5F4F4;
+}
+
+.text_line {
+    font-size: 15px;
+    text-align: center;
+    padding: 29px;
+    direction: rtl;
+    padding-top: 20px;
+}
+
+.text_box2 {
+    background-color: #FFFFFF;
+    width: 257px;
+    margin-left: 30px;
+    padding: 10px;
+    text-align: right;
+    border-radius: 0 0 15px 15px;
+}
+
+#title_box {
+    font-size: 20px;
+    padding: 5px;
+}
+
+.parent {
+    margin: 20px;
+    overflow: hidden;
+    border-radius: 15px 15px 0 0;
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.underbox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 13px;
+    padding: 10px;
+    width: 257px;
+    background-color: white;
+    text-align: right;
+    height: 150px;
+    overflow: hidden;
+    bottom: 180px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+div.underbox a {
+    font-size: 16px;
+    padding-bottom: 6px;
+}
+
